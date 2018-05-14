@@ -1,10 +1,40 @@
 <html>
-  <head>
-    <title>RPS</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <h1 class ="center">Rock Paper Scissors</h1>
-    <script src="./js/main.js"></script>
-  </body>
+
+<head>
+  <title>RPS</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <h1 class="center">Rock Paper Scissors</h1>
+  
+  <div class = "choices">
+    <button id="rock"><img class = "pics" src="rock.jpg"></button>
+    <button id="paper"><img class = "pics" src="paper.jpg"></button>
+    <button id="scissors"><img class = "pics" src="scissors.jpg"></button>
+  </div>
+  <div>
+    <h3 id="selection"> Result</h3>
+  </div>
+  <div class="center"> 
+    <button id="centerButton">
+      Play Game
+    </button>
+  </div>
+  <div class = "center">
+    <h1 id="compChoice"></h1>
+  </div>
+  <div>
+    <h2 id="winOrLose">
+    
+    </h2>
+  </div>
+  <div>
+    <h1 id="wins">Wins: 0</h1>
+    <h1 id="losses">Losses: 0</h1>
+    <h1 id='ties'>Ties: 0</h1>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
 </html>
